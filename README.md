@@ -13,6 +13,6 @@ uv sync
 ## Run
 
 ```bash
-uv run python sipit.py --sentence "A B C" --model_name "meta-llam
-a/Llama-3.2-1B-Instruct" --layer_idx -1
+uv run python recon_sentence.py --sentence "A B C" --model_name "meta-llam
+a/Llama-3.2-1B-Instruct" --layer_idx -1 --eps 1e-6
 ```
